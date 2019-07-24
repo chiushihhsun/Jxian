@@ -1,0 +1,58 @@
+.section {
+    padding: 6rem 0;
+}
+/* index Banner scroll */
+.parallax-window_index {
+    min-height: 100vh;
+    background: transparent;
+    padding: 15vh 0;
+}
+.parallax-window_another{
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 30vh 0;
+}
+/* LOGO owlCarousel */
+.logoowlCarousel{
+    padding: 5rem;
+}
+.owl-theme{
+    padding: 3rem;
+}
+.item{
+    margin: 0.5rem;
+    opacity: 0.7;
+    transition: .5s;
+    min-height: 100px;
+}
+.item:hover{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+/* Advantage */
+.Advantage{
+    width: 100%;
+    min-height:80vh;
+    background-image: url(../images/index_br2.jpg);
+    background-size:cover;
+}
+#map {
+    width: 100%;
+    min-height: 500px;
+}
+/* news_list */
+.news_list button{
+    position: absolute;
+    right: 0;
+}
+.new_list_dot{
+    border-bottom: 1px solid rgb(226, 179, 179);
+}
+.new_img{
+    max-width: 400px;
+    overflow: hidden;
+}
+.new_img img,.img-responsive{
+    width: 100%;
+}
